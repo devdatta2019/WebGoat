@@ -15,7 +15,7 @@ COPY --chown=webgoat target/webwolf-*.jar /home/webgoat/webwolf.jar
 COPY --chown=webgoat start.sh /home/webgoat
 RUN chmod +x /home/webgoat/start.sh
 
-EXPOSE 8080
+EXPOSE 8090
 EXPOSE 9090
 
 WORKDIR /home/webgoat
